@@ -1,71 +1,54 @@
+/* Global */
 body{
-    background-color: #1d1a21;
-    padding: 0px;
     margin: 0px;
+    color: #ADCAEB;
 }
-
 h1{
     text-align: center;
-    font-size: 50% large;
-    padding-bottom: 50px;
 }
 
-.grid{
-    display:grid;
-    row-gap: 1px;
-    column-gap: 1px;
+.hidden{
+    display: none;
+}
+
+
+/* Main */
+#play_area{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    border: 10px, solid, black;
+    padding: 5px;
+}
+
+#rules_area{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    border: 10px, solid, black;
+    padding: 5px;
+}
+#grid{
+    display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: center;
 }
 
 .grid_square{
-    height: 125px;
-    width: 125px;
-    border-radius: 10px;
-    border: solid, 1px, black;
-    padding: 2px;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
 }
 
-#buttons{
+nav{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 30px;
 }
 
-.square1{
-    background-color: red;
-}
-
-.square2{
-    background-color: blue;
-}
-
-.square3{
-    background-color: yellow;
-}
-
-.square4{
-    background-color: orange;
-}
-
-.square5{
-    background-color: purple;
-}
-.square6{
-    background-color: cyan;
-}
-
-.square7{
-    background-color: green;
-}
-
-.square8{
-    background-color: rebeccapurple;
-}
-
-.square9{
-    background-color: rgb(127, 224, 160);
-}
-
-.hidden{
-    display: none;
+button{
+    text-align: center;
+    font-size: 30px;
 }
