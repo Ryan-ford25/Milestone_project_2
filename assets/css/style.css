@@ -1,0 +1,26 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50% large;
+    padding-bottom: 50px;
+}
+
+.grid{
+    display:grid;
+    row-gap: 1px;
+    column-gap: 1px;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+}
+
+.grid_square{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid, 1px, black;
+}
+
