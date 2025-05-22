@@ -1,9 +1,12 @@
 /* Global */
 body{
     margin: 0px;
+    background-color: #1E1B22;
     color: #ADCAEB;
 }
 h1{
+    margin-top: 50px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -11,24 +14,34 @@ h1{
     display: none;
 }
 
+.lit{
+    opacity: 0.3;
+}
+
 
 /* Main */
 #play_area{
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
-    height: 800px;
-    border: 10px, solid, black;
+    width: 450px;
+    height: 550px;
     padding: 5px;
+    background-color: #342D3D;
 }
 
 #rules_area{
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
-    height: 800px;
-    border: 10px, solid, black;
+    width: 450px;
+    height: 550px;
     padding: 5px;
+    text-align: center;
+    background-color: #342D3D;
+}
+
+ul{
+    list-style: none;
 }
 #grid{
     display: grid;
@@ -40,6 +53,7 @@ h1{
     height: 150px;
     width: 150px;
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 nav{
@@ -51,4 +65,32 @@ nav{
 button{
     text-align: center;
     font-size: 30px;
+}
+
+.sq1{
+    background-color: red;
+}
+.sq2{
+    background-color: blue;
+}
+.sq3{
+    background-color: green;
+}
+.sq4{
+    background-color: yellow;
+}
+.sq5{
+    background-color: orange;
+}
+.sq6{
+    background-color: purple;
+}
+.sq7{
+    background-color: cyan;
+}
+.sq8{
+    background-color:  #a9203e;
+}
+.sq9{
+    background-color: #3eb489;
 }
