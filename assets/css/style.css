@@ -1,4 +1,5 @@
 body{
+    background-color: #1d1a21;
     padding: 0px;
     margin: 0px;
 }
@@ -28,4 +29,43 @@ h1{
 #buttons{
     display: flex;
     justify-content: space-evenly;
+}
+
+.square1{
+    background-color: red;
+}
+
+.square2{
+    background-color: blue;
+}
+
+.square3{
+    background-color: yellow;
+}
+
+.square4{
+    background-color: orange;
+}
+
+.square5{
+    background-color: purple;
+}
+.square6{
+    background-color: cyan;
+}
+
+.square7{
+    background-color: green;
+}
+
+.square8{
+    background-color: rebeccapurple;
+}
+
+.square9{
+    background-color: rgb(127, 224, 160);
+}
+
+.hidden{
+    display: none;
 }
