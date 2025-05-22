@@ -13,33 +13,19 @@ h1{
     display:grid;
     row-gap: 1px;
     column-gap: 1px;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, auto);
     justify-content: center;
 }
 
 .grid_square{
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border-radius: 10px;
     border: solid, 1px, black;
+    padding: 2px;
 }
+
 #buttons{
     display: flex;
     justify-content: space-evenly;
-}
-
-#start{
-    font-size: 75px;
-    max-height: 100px;
-    width: auto;
-    border-radius: 10px;
-    border: solid, 1px, black;
-}
-
-#rules{
-    font-size: 75px;
-    max-height: 100px;
-    width: auto;
-    border-radius: 10px;
-    border: solid, 1px, black;
 }
