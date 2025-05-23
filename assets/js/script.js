@@ -12,16 +12,18 @@ let game = {
 $("#start").on("click", function(){
     $("#play_area").removeClass("hidden");
     $("#rules_area").addClass("hidden");
+    $("#welcome_screen").addClass("hidden");
 })
 
 $("#rules").on("click", function(){
-    $("#play_area").addClass("hidden");
+    $("#welcome_screen").addClass("hidden");
     $("#rules_area").removeClass("hidden");
 })
 
 $("#start2").on("click", function(){
     $("#play_area").removeClass("hidden");
     $("#rules_area").addClass("hidden");
+    $("#welcome_screen").addClass("hidden");
 })
 
 function startGame(){

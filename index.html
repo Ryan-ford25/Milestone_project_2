@@ -22,7 +22,16 @@
     
     <!--Main contents-->
     <main>
-        <div id="play_area">
+        <div id="welcome_screen">
+            <p>Welcome to <strong>Echoes of Light</strong> the light sequence memory game!</p>
+            <p>Do you have what it takes to reach the final level?</p>
+            <p>Click 'Start' below to jump straight in or 'Rules' for more info</p>
+            <nav id="buttons">
+                <button class="button" id="start">Start</button>
+                <button id="rules" class="button">Rules</button>
+            </nav>
+        </div>
+        <div id="play_area" class="hidden">
             <div id="grid">
                 <div data-listener="false" id="button1" class="sq1 grid_square"></div>
                 <div data-listener="false" id="button2" class="sq2 grid_square"></div>
@@ -34,10 +43,10 @@
                 <div data-listener="false" id="button8" class="sq8 grid_square"></div>
                 <div data-listener="false" id="button9" class="sq9 grid_square"></div>
             </div>
-            <nav id="buttons">
-                <button class="button" id="start">Start</button>
-                <button id="rules" class="button">Rules</button>
-            </nav>
+            <div id="counts">
+                <div class="score_count" id="score">0</div>
+                <div class="life_count" id="lives"><i class="fa-solid fa-heart-pulse" style="color: #4795de"></i>3</div>
+            </div>
         </div>
         <div id="rules_area" class="hidden">
             <h2>Rules</h2>
@@ -62,6 +71,6 @@
     <!--Custom Javascript file link-->
     <script src="assets/js/script.js"></script>
     <!--Font awesome kit link-->
-    
+    <script src="https://kit.fontawesome.com/31673c5b9a.js" crossorigin="anonymous"></script>
 </body>
 </html>
